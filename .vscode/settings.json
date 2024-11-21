@@ -5,3 +5,16 @@
         "*.md": "vscode.markdown.preview.editor"
     }
 }
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.editorAssociations": {   
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
+}
