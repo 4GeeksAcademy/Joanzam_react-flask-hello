@@ -16,7 +16,7 @@ app.url_map.strict_slashes = False
 CORS(app)
 
 
-app.config['JWT_SECRET_KEY'] = 'cacahuete1234'  # Cambia esto por una clave secreta real
+app.config['JWT_SECRET_KEY'] = 'joan12345'  # Cambia esto por una clave secreta real
 jwt = JWTManager(app)
 
 # database condiguration
